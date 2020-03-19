@@ -1,7 +1,7 @@
 <resources>
 
     <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">true</item>
+        <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
@@ -16,4 +16,16 @@
 
         <item name="android:background">@color/black</item>
     </style>
+
+    <style name="AppTheme.CustomToolBar">
+        <item name="colorPrimary">#ff0088</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <!--        <item name="android:background">#ff0088</item>-->
+    </style>
+
+    <style name="AppTheme.NaviHeader">
+        <item name="android:background">@drawable/side_nav_bar_blue</item>
+    </style>
+
+
 </resources>
